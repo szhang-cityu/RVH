@@ -1,2 +1,2 @@
-cd /home/szhang844/SFT
+cd /home/your_path
 python train_experience_lora.py
