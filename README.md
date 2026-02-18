@@ -16,3 +16,11 @@ pip install mamba-ssm
 ```bash
 bash run_train.sh
 ```
+
+Then you can run the RL training on generating conclusion from comphrehensive ECG text record using the files in `train/train_LLM`:
+```bash
+cd train/train_LLM
+bash run.sh
+bash grpo.sh
+bash report.sh
+```
