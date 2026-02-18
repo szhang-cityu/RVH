@@ -18,8 +18,8 @@ DEFAULT_OUTPUT_JSON = WORKSPACE / "results" / "report_results.json"
 DEFAULT_BASE_MODEL = WORKSPACE / "merge"
 DEFAULT_GRPO_LORA = WORKSPACE / "grpo_lora"
 
-API_SECRET_KEY = "sk-zk26303c340d3fddff99cb1c5e29cb1fcf065c1d4ec9fba7"
-BASE_URL = "https://api.zhizengzeng.com/v1/"
+API_SECRET_KEY = your_api_key
+BASE_URL = your_base_url
 
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
